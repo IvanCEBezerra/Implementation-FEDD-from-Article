@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: fedd
+Version: 0.1.0
+Summary: FEDD generators - AR time series with drifts
+Requires-Python: >=3.8
+Requires-Dist: numpy
+Requires-Dist: matplotlib
