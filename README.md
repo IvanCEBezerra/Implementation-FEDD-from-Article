@@ -43,3 +43,17 @@ FEDD takes a white-box, feature-based approach by monitoring statistical feature
 │   │   ├── __init__.py                # Public API for feature extraction & distances[cite: 10]
 │   │   ├── distances.py               # Cosine and Pearson distance metric implementations[cite: 11]
 │   │   └── features.py                # 20-feature extraction pipeline (Turning points, ACF, PACF, BIC, MI)
+
+
+Citation
+If you use this implementation or reference this repository in your academic or professional work, please cite the original paper:
+
+Snippet de código
+@inproceedings{cavalcante2016fedd,
+  author={Cavalcante, Rodolfo C. and Minku, Leandro L. and Oliveira, Adriano L. I.},
+  booktitle={2016 International Joint Conference on Neural Networks (IJCNN)}, 
+  title={FEDD: Feature Extraction for Explicit Concept Drift Detection in Time Series}, 
+  year={2016},
+  pages={740-747},
+  doi={10.1109/IJCNN.2016.7727321}
+}
